@@ -1,2 +1,2 @@
-# Computer Vision A-Z
-Computer Vision with Deep Learning , OpenCV , SSD, GANs
+# 100 Days of python coding (udemy course)
+From Python basics to advance development
