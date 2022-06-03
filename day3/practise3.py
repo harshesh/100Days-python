@@ -33,7 +33,7 @@ if height >= 120:
 		bill = 7
 		print("your ticket prize is 7 dollers")
 	elif age >= 45 ad age <= 55:
-		print(:you don't need ticket)
+		print("you don't need ticket")
 	else:
 		bill = 12
 		print("your ticket prize is 5 dollers")
