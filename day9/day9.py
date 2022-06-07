@@ -70,7 +70,7 @@ country_travel_value = {
 print(country_travel_value)
 
 # nesting dict in list
-country_travel_list = [
+travel_log = [
 	{
 	  "country":"France", 
 	  "city_visited":['peris', 'Lille'], 
@@ -82,3 +82,16 @@ country_travel_list = [
 	  "total_visits": 22
 	}
 ]
+
+
+def add_new_country(country, time, city):
+	new = {}
+	new['country'] = country
+	new['city_visited'] = city
+	new['total_visits'] = time
+	return new
+
+dictinary = add_new_country("Russia", 2, ["Moscow", "Saint"])
+travel_log.append(dictinary)
+
+print(travel_log)
